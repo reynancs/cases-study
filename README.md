@@ -16,6 +16,6 @@ Cada pasta contém:
 
 ## 💡 Notes
 - Estes projetos são **práticos e objetivos**, voltados para experimentação rápida.
-- Para projetos de portfolio completo com metodologia **CRISP-DM**, consulte a pasta [projetos_longos](https://github.com/reynancs/portfolio-guide).
+- Para projetos de portfolio completo com metodologia **CRISP-DM**, consulte a pasta [projetos_completos(portfolio)](https://github.com/reynancs/portfolio-guide).
 
 ---
