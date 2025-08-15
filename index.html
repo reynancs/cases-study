@@ -101,18 +101,6 @@
         </div>
 
         <div class="field">
-          <label class="label" for="cat">Categoria</label>
-          <select id="cat">
-            <option value="">Todas as categorias</option>
-            <option>Machine Learning</option>
-            <option>GenAI</option>
-            <option>DataViz</option>
-            <option>BI</option>
-            <option>DevOps</option>
-          </select>
-        </div>
-
-        <div class="field">
           <label class="label" for="seg">Segmento</label>
           <select id="seg">
             <option value="">Todos os segmentos</option>
@@ -121,6 +109,18 @@
             <option>📞Atendimento ao Cliente</option>
             <option>💻TI</option>
             <option>📢Marketing</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label class="label" for="cat">Categoria</label>
+          <select id="cat">
+            <option value="">Todas as categorias</option>
+            <option>Machine Learning</option>
+            <option>GenAI</option>
+            <option>DataViz</option>
+            <option>BI</option>
+            <option>DevOps</option>
           </select>
         </div>
 
@@ -235,8 +235,18 @@
         segmento: '💻TI',
         ferramentas: ['azure-devops', 'docker','kubernetes','aks','terraform', 'kubectl'],
         status: 'Concluído'
+      },
+      {
+        slug: 'docker-alura-books',
+        nome: 'Docker Compose : app web com mongodb',
+        link: 'https://github.com/reynancs/docker-alura-books', // 🔧 cole o link do GitHub aqui
+        descricao: 'App web com mongodb e docker compose.',
+        categoria: 'DevOps',
+        segmento: '💻TI',
+        ferramentas: ['docker','docker-compose','mongodb'],
+        status: 'Concluído'
       }
-    ];
+        ];
 
     // ===== Seletores e utilitários =================================
     const tbody = document.querySelector('#projects tbody');
